@@ -5,4 +5,5 @@ wget -nv https://download.opensuse.org/repositories/devel:kubic:libcontainers:st
 apt update -qq
 apt-get -qq --yes install podman
 apt update
-apt-get -y install podman nginx
+apt-get -y install podman python3-pip nginx
+pip3 install podman-compose
